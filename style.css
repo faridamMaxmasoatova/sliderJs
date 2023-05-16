@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{
+    display: flex;
+    margin: 0 auto;
+    width: 1150px;
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+    position: relative;
+    transition: 1s;
+}
+
+.first{
+    position: absolute;
+    width: 350px;
+    height: 250px;opacity: 0.30;
+    left: 0px;
+}
+.second{
+    position: absolute;
+    width: 550px;
+    height: 400px;
+    opacity: 1;
+    left: 320px;
+    z-index: 1;
+}
+.third{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    opacity: 0.3;
+    gap: 30px;
+    right: 0;
+}
+
